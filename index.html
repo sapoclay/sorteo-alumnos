@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Establece el idioma de la página como español -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Especifica el conjunto de caracteres UTF-8 para admitir caracteres especiales -->
+    <title>Selector de Nombres</title>
+    <!-- Establece el título de la página que se mostrará en la pestaña del navegador -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS para aplicar estilos a la página -->
+</head>
+
+<body>
+    <div class="titulo" aria-label="Hecho en entreunosyceros.net"></div>
+    <!-- Crea un elemento <div> con una clase "titulo" y un atributo "aria-label" -->
+    <button id="seleccionar">Seleccionar Nombre</button> <!-- Crea un botón con un id "seleccionar" -->
+    <div id="contenedor-nombres"> <!-- Crea un contenedor con un id "contenedor-nombres" -->
+        <ul id="lista-nombres"></ul> <!-- Crea una lista desordenada con un id "lista-nombres" -->
+        <h2>Nombres incluidos en el sorteo:</h2> <!-- Crea un encabezado secundario con el texto indicado -->
+        <ul id="nombres-guardados"></ul> <!-- Crea otra lista desordenada con un id "nombres-guardados" -->
+    </div>
+    <form id="formulario-nuevo-nombre" class="formulario-tarjeta">
+        <!-- Crea un formulario con un id "formulario-nuevo-nombre" y una clase "formulario-tarjeta" -->
+        <input type="text" id="nuevo-nombre" placeholder="Introduce un nuevo nombre" class="input-tarjeta">
+        <!-- Crea un campo de entrada de texto con un id "nuevo-nombre", un marcador de posición y una clase "input-tarjeta" -->
+        <button type="submit" class="boton-tarjeta">Añadir Nombre</button>
+        <!-- Crea un botón de envío del formulario con una clase "boton-tarjeta" -->
+        <div id="mensaje-error" class="mensaje-error"></div>
+        <!-- Crea un elemento <div> con un id "mensaje-error" y una clase "mensaje-error" -->
+    </form>
+    <script src="script.js"></script> <!-- Enlaza el archivo de script JavaScript para agregar funcionalidades -->
+</body>
+
+</html>

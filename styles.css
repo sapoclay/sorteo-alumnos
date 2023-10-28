@@ -1,0 +1,139 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente de texto a utilizar */
+    background-color: #5900ff; /* Establece el color de fondo */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 20px; /* Añade un espacio alrededor del contenido */
+    display: flex; /* Usa el modelo de caja flexible para organizar elementos */
+    flex-direction: column; /* Establece la dirección de los elementos como columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px; /* Añade espacio alrededor del texto dentro del botón */
+    font-size: 16px; /* Establece el tamaño de la fuente */
+    margin-bottom: 20px; /* Añade espacio entre el botón y el siguiente elemento */
+}
+
+/* Estilos para el contenedor de nombres */
+#contenedor-nombres {
+    max-width: 600px; /* Establece el ancho máximo del contenedor */
+    width: 100%; /* Establece el ancho al 100% */
+    background-color: #fff; /* Establece el color de fondo */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Añade esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor del contenedor */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-bottom: 20px; /* Añade espacio entre este elemento y el siguiente */
+    border: 2px solid #8a2be2; /* Establece un borde de color y grosor */
+}
+
+/* Estilos para la lista de nombres guardados */
+#nombres-guardados {
+    list-style-type: none; /* Elimina la viñeta de la lista */
+    padding: 0; /* Elimina el espacio entre elementos de la lista */
+    margin-top: 10px; /* Añade espacio encima de la lista */
+}
+
+/* Estilos para la lista de nombres seleccionados */
+#lista-nombres {
+    font-weight: bold; /* Establece el grosor de la fuente */
+    font-size: larger; /* Establece un tamaño de fuente mayor */
+    list-style-type: none; /* Elimina la viñeta de la lista */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilos para el formulario de añadir nombre */
+.formulario-tarjeta {
+    background-color: #8a2be2; /* Establece el color de fondo */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    border-radius: 10px; /* Añade esquinas redondeadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra alrededor del formulario */
+    text-align: left; /* Alinea el texto a la izquierda */
+    width: 100%; /* Establece el ancho al 100% */
+    max-width: 600px; /* Establece el ancho máximo del formulario */
+    width: 100%; /* Establece el ancho al 100% */
+    margin-bottom: 20px; /* Añade espacio entre este elemento y el siguiente */
+    border: 1px solid #fff; /* Establece un borde de color y grosor */
+}
+
+/* Estilos para el campo de entrada de texto */
+.input-tarjeta {
+    width: calc(100% - 20px); /* Establece el ancho del campo de entrada */
+    padding: 10px; /* Añade espacio alrededor del contenido del campo */
+    margin-bottom: 10px; /* Añade espacio entre el campo y el siguiente elemento */
+    border: none; /* Elimina el borde del campo */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    font-size: 16px; /* Establece el tamaño de la fuente */
+}
+
+/* Estilos para el botón de añadir nombre */
+.boton-tarjeta {
+    padding: 10px 20px; /* Añade espacio alrededor del texto dentro del botón */
+    font-size: 16px; /* Establece el tamaño de la fuente */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Añade esquinas redondeadas */
+    background-color: #fff; /* Establece el color de fondo */
+    color: #8a2be2; /* Establece el color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+    transition: background-color 0.3s; /* Añade una transición suave al color de fondo */
+}
+
+/* Estilos para el botón de añadir nombre cuando se hace hover */
+.boton-tarjeta:hover {
+    background-color: #f0f0f0; /* Cambia el color de fondo al hacer hover */
+}
+/*Título*/
+.titulo {
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font: normal 38px / normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    white-space: pre;
+    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgba(255, 0, 0),
+      0 0 30px rgba(255, 0, 0), 0 0 40px #727272, 0 0 70px #727272,
+      0 0 80px #4e4e4e, 0 0 100px #2b2b2b;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* Estilo para el título cuando se le hace hover */
+  .titulo:hover {
+    text-shadow: 0 0 10px rgb(73, 73, 73), 0 0 20px rgb(56, 56, 56),
+      0 0 30px rgb(48, 48, 48), 0 0 40px #5c5c5c, 0 0 70px #000000,
+      0 0 80px #000000, 0 0 100px #000000;
+  }
+  /* Texto del título */
+  .titulo::after {
+    content: "Selección del afortunado/a";
+  }
+
+  /* Ganador */
+
+  /*Título*/
+.ganador {
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    font: normal 38px / normal "Warnes", Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    white-space: pre;
+    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(25, 0, 255),
+      0 0 30px rgba(255, 0, 0), 0 0 40px #727272, 0 0 70px #727272,
+      0 0 80px #4e4e4e, 0 0 100px #2b2b2b;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
