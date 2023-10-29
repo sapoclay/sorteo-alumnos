@@ -117,7 +117,7 @@ button {
 
   /* Ganador */
 
-  /*Título*/
+  /* Texto que muestra al ganador */
 .ganador {
     box-sizing: border-box;
     padding: 10px;
