@@ -1,5 +1,7 @@
-# sorteo-alumnos
+# Sorteo de alumnos
 Sorteo de alumnos con JavaScript y Json.
+
+![Sorteo](https://github.com/sapoclay/sorteo-alumnos/assets/6242827/7430ae38-f0ac-48a6-88e8-e8dfced9c315)
 
 ## Archivo index.html
 
